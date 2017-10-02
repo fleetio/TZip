@@ -14,3 +14,8 @@ TZip makes it a little bit easier to set TimeZones in a rails app, since it can 
 	# Set the default time zone for a Rails app
 	# Rails configuration file (config/application.rb or config/environments/development.rb, etc)
 	config.time_zone = ActiveSupport::TimeZone.find_by_zipcode('90210')
+	
+
+## Running the test suite ##
+
+    $ rspec spec
